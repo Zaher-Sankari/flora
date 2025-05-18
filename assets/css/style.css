@@ -86,13 +86,11 @@ nav .burger {
     padding: 20px 58px;
     margin-top: 20px;
     border-radius: 16px;
-    background-color: aqua;
-    /* backdrop-filter:blur(16px); */
+    backdrop-filter:blur(90px);
     display: flex;
     justify-content: space-between;
     gap: 24px;
     align-items: center;   
- 
 }
 .hero .card{
     display: flex;
@@ -175,3 +173,43 @@ nav .burger {
 .banner-blue p{
     color: #ffffff;
 }
+/* End how it works*/
+
+/* Dream Section*/
+#dream{
+    position: relative;
+}
+#dream img{
+    width: 100%;
+    filter: brightness(40%);
+}
+#dream .dream-info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#dream h1 {
+    color: #ffffff;
+    max-width: 606px;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 56px;
+    position: absolute;
+    top: 107px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#dream p {
+    text-align: center;
+    margin-top: 50px;
+    max-width: 606px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+/* End dream section*/
