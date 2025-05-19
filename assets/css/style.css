@@ -91,7 +91,7 @@ nav .burger {
   padding: 20px 58px;
   margin-top: 20px;
   border-radius: 16px;
-  backdrop-filter: blur(90px);
+  backdrop-filter: blur(10px);
   display: flex;
   justify-content: space-between;
   gap: 24px;
@@ -328,6 +328,9 @@ nav .burger {
 #deals .container .card {
   position: relative;
 }
+#deals .container .card img{
+    border-radius: 16px;
+}
 #deals .container .buttons {
   position: absolute;
   top: 14px;
@@ -419,6 +422,9 @@ footer .social-links img {
     text-align: center;
     color: #222222;
   }
+  .hero h1 {
+    font-size: 50px;
+  }
   .hero .container {
     flex-direction: column;
     align-items: flex-start;
@@ -439,6 +445,7 @@ footer .social-links img {
   }
   .trending-info {
     text-align: center;
+    margin: 0 auto;
   }
   .first-row-cards, .second-row-cards{
     flex-direction: column;
@@ -453,4 +460,26 @@ footer .social-links img {
   #trending .card {
     margin-bottom: 20px;
   }
+
+#deals h1, #deals p {
+    text-align: center;
+}
+.deal-links{
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto 0;
+}
+#deals .container{
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin: 0 auto;
+}
+footer .container{
+    flex-direction: column;
+}
+footer .copyright{
+    flex-direction: column;
+    margin-top: 20px;
+}
 }
