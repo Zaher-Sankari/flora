@@ -20,7 +20,8 @@ ul {
 /* header styling */
 header {
   height: 100vh;
-  background-color: #eff8ff;
+  /* background-color: #eff8ff; */
+  background-color: #b5dfff;
 }
 
 /* nav styling */
@@ -33,7 +34,8 @@ nav {
   position: fixed;
   top: 0;
   z-index: 100;
-  background-color: #eff8ff;
+  /* background-color: #eff8ff; */
+  background-color: #b5dfff;
   padding: 0 70px;
 }
 nav ul {
@@ -131,8 +133,7 @@ nav .burger {
   line-height: 100%;
 }
 #how-it-works > p {
-  width: 529px;
-  font-synthesis-weight: 15px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 26px;
   color: #22222280;
@@ -402,6 +403,7 @@ footer .social-links img {
   }
   nav .burger {
     display: block;
+
   }
   .whiteSpacing {
     padding: 0 20px;
@@ -411,18 +413,44 @@ footer .social-links img {
     padding-top: 132px;
   }
   .hero h1,
-  .hero .description {
+  .hero > p {
     padding: 0 20px;
+    width: 100%;
+    text-align: center;
+    color: #222222;
   }
   .hero .container {
     flex-direction: column;
     align-items: flex-start;
   }
+  #how-it-works > p,#how-it-works h2 {
+    max-width: 100%;
+    text-align: center;
+  }
   #how-it-works .banner {
     flex-direction: column;
     width: 100%;
+    justify-content: center;
+    align-items: center;
   }
   #how-it-works .banner .card {
     max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .trending-info {
+    text-align: center;
+  }
+  .first-row-cards, .second-row-cards{
+    flex-direction: column;
+  }
+#trending .cards-container .first-row-cards{
+      margin-bottom: 0;
+    }
+  #trending .cards-container{
+    gap: 0px;
+    align-items: center;
+  }
+  #trending .card {
+    margin-bottom: 20px;
   }
 }
